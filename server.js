@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-    return res.send("Express test")
+    return res.send("Express test test")
 })
 
 app.listen(3000, () => console.log("Server run on port 3000"))
